@@ -16,9 +16,9 @@
 
 ## About me
 
-I design and ship products end to end, from the database schema to the app in someone's hand. Right now I'm building **BuildX**, a B2B marketplace for construction materials and equipment rental, aimed at tier-2/3 India. Alongside that I contribute to cloud-native infrastructure projects in the CNCF ecosystem.
+I design and ship products end to end, from the database schema to the app in someone's hand. Right now I'm building and running **Sthiva**, a live construction materials marketplace in Karnataka, India. Alongside that I contribute to cloud-native infrastructure projects in the CNCF ecosystem.
 
-- Founder & sole engineer on **BuildX** — mobile app, backend, payments, KYC, and ops dashboard
+- Founder & sole engineer on **[Sthiva](https://sthiva.com)** — three mobile apps, three web apps, one API, shipped and serving real orders
 - Active contributor to **OpenEverest** (Kubernetes-native database provisioning)
 - Comfortable across the stack: mobile, backend, databases, and cloud infra
 - Based in Bengaluru, building for tier-2/3 India
@@ -31,26 +31,29 @@ I design and ship products end to end, from the database schema to the app in so
 <tr>
 <td width="60%" valign="top">
 
-### [BuildX](https://github.com/Harishrs2006/buildx)
-B2B construction materials & equipment rental marketplace for tier-2/3 India.
+### [Sthiva](https://github.com/Harishrs2006/sthiva)
+Construction materials marketplace, live in Karnataka. Buyers order cement, steel, sand, bricks and blocks from verified local suppliers at one clear price, cash on delivery.
 
-- **Mobile:** React Native (Expo), Zustand, TanStack Query
-- **Backend:** Express.js, MongoDB, Mongoose
-- **Auth:** Firebase phone OTP — contractors are phone-first, not email-first
-- **Payments:** Razorpay with escrow-style marketplace payouts
-- **KYC:** HyperVerge — Aadhaar OCR, face match, penny drop
-- **Ops:** Next.js internal dashboard, WhatsApp (Interakt) order notifications
+[![CI](https://github.com/Harishrs2006/sthiva/actions/workflows/ci.yml/badge.svg)](https://github.com/Harishrs2006/sthiva/actions/workflows/ci.yml)
+
+- **API:** Node.js, Express, TypeScript, MongoDB Atlas, Zod
+- **Web:** Next.js shop, supplier portal, and ops console (3 apps, one monorepo)
+- **Mobile:** one Expo codebase builds 3 Android apps — buyer, supplier partner, driver
+- **Auth:** Firebase phone OTP, Google on web
+- **Infra:** Vercel, Render, Cloudflare DNS, CI on every PR
 
 </td>
 <td width="40%" valign="top">
 
 ```text
-status     : active development
-stage      : pre-launch pilot
-market     : Tumakuru, Karnataka
-users      : contractors + suppliers
-stack      : React Native · Express
-             MongoDB · Firebase
+status     : live in production
+market     : Karnataka, India
+shop       : sthiva.com
+supplier   : seller.sthiva.com
+api        : api.sthiva.com
+stack      : Next.js · Express
+             MongoDB · Expo
+             TypeScript
 ```
 
 </td>
@@ -97,7 +100,6 @@ Also exploring Bitcoin infrastructure through [Braidpool](https://github.com/bra
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
 </p>
 
 **Mobile & Frontend**
@@ -105,7 +107,7 @@ Also exploring Bitcoin infrastructure through [Braidpool](https://github.com/bra
 <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
 </p>
 
 **Backend & Data**
@@ -113,15 +115,15 @@ Also exploring Bitcoin infrastructure through [Braidpool](https://github.com/bra
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
 </p>
 
 **Infra & Platform**
 <p>
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 </p>
 
 <br>
