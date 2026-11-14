@@ -153,7 +153,7 @@ Contributing to cloud-native infrastructure, language runtimes, and Bitcoin tool
 </p>
 
 <p align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harishrs2006&theme=github-compact&hide_border=true&bg_color=0d1117&color=F5A623&line=F5A623&point=ffffff" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harishrs2006&theme=github-compact&hide_border=true&bg_color=0d1117&color=3fb950&line=3fb950&point=ffffff" width="100%" />
 </p>
 
 <br/>
